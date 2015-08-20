@@ -25,7 +25,7 @@ setup(
     platforms=["any"],
     license="BSD",
     packages=find_packages(),
-    install_requires=[],
+    install_requires=['python-vim'],
     tests_require=['nose'],
     test_suite="nose.collector",
     zip_safe=False,

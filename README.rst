@@ -9,6 +9,9 @@ What is it?
 vim_bridge_ is a Python-to-Vim bridge decorator that allows transparent calls
 to Python functions in native Vim scripts.
 
+Dependencies
+------------
+This module requires the `python-vim <https://pypi.python.org/pypi/python-vim/>`_ package.
 
 Installation
 ------------
@@ -17,7 +20,6 @@ Simply install the vim_bridge_ Python package, using setuptools,
 
 
 .. _vim_bridge: http://pypi.python.org/pypi/vim_bridge/
-
 
 Usage
 -----
